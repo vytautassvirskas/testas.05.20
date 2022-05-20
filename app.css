@@ -1,0 +1,101 @@
+body {
+	margin: 100px 60px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 40px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	width: 20%;
+}
+
+.background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 80%;
+	height: 180px;
+}
+.background img {
+	width: 60px;
+	height: 60px;
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
+}
+.background .circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	top: -15px;
+	left: -15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+}
+.background .circle p {
+	font-weight: bold;
+}
+
+.card-1 {
+	background-color: rgb(86, 192, 204);
+}
+.card-1 .circle {
+	border: 3px solid rgb(86, 192, 204);
+}
+.card-1 .circle p {
+	color: rgb(86, 192, 204);
+}
+
+.card-2 {
+	background-color: rgb(68, 95, 139);
+}
+.card-2 .circle {
+	border: 3px solid rgb(68, 95, 139);
+}
+.card-2 .circle p {
+	color: rgb(68, 95, 139);
+}
+.card-3 {
+	background-color: rgb(143, 71, 69);
+}
+.card-3 .circle {
+	border: 3px solid rgb(143, 71, 69);
+}
+.card-3 .circle p {
+	color: rgb(143, 71, 69);
+}
+.card-4 {
+	background-color: rgb(141, 146, 154);
+}
+.card-4 .circle {
+	border: 3px solid rgb(141, 146, 154);
+}
+.card-4 .circle p {
+	color: rgb(141, 146, 154);
+}
+
+.heading {
+	color: rgb(209, 73, 69);
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 20px 70px;
+}
+.text {
+	color: rgb(141, 146, 154);
+	line-height: 2;
+	margin: 0;
+}
